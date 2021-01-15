@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_name"
+        android:imeOptions="flagNoExtractUi"
+        android:hint="@string/hint_new_name"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </androidx.appcompat.widget.AppCompatEditText>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_surname"
+        android:imeOptions="flagNoExtractUi"
+        android:hint="@string/hint_new_surname"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </androidx.appcompat.widget.AppCompatEditText>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_mail"
+        android:imeOptions="flagNoExtractUi"
+        android:hint="@string/hint_new_mail"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </androidx.appcompat.widget.AppCompatEditText>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="db_name">My incredible database</string>
+    <string name="edit">Редактирование</string>
+    <string name="apply">Применить</string>
+    <string name="cancel">Отменить</string>
+    <string name="remove">Удалить</string>
+    <string name="show_button_text">Показать содержимое БД с возможностью редактирования (long click)</string>
+    <string name="update_button_text">Обновить данные</string>
+    <string name="hint_new_name">Новое имя</string>
+    <string name="hint_new_surname">Новая фамилия</string>
+    <string name="hint_new_mail">Новая почта</string>
+</resources>
